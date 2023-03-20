@@ -14,7 +14,7 @@ state = st.sidebar.selectbox('Estado', estados)
 
 # seleção da coluna
 # column = 'Casos por 100 mil habitantes'
-informacoes = ['Novos hábitos', 'Novos casos', 'Óbitos por 100 mil habitantes', 'Casos por 100 mil habitantes']
+informacoes = ['Novos óbitos', 'Novos casos', 'Óbitos por 100 mil habitantes', 'Casos por 100 mil habitantes']
 column = st.sidebar.selectbox('Dados', informacoes)
 
 # seleção das linhas que pertencem ao estado
